@@ -9,22 +9,26 @@ public class SwitchCaseInput {
 		// TODO Auto-generated method stub
 		String s1 = getInput("Enter Month Number: ");
 		
-		int month = Integer.parseInt(s1);
+//		int month = Integer.parseInt(s1);
+		
+		
+		
+		Month month = Month.JANUARY;
 		
 		switch (month) {
-		case 1:
+		case JANUARY:
 			System.out.println("1st Month is January");  
 			break;
-		case 2:
+		case february:
 			System.out.println("2nd Month is February");  
 			break;
-		case 3:
+		case march:
 			System.out.println("3rd Month is March");  
 			break;
-		case 4:
+		case APRIL:
 			System.out.println("4th Month is April");  
 			break;
-		case 5:
+		case MAY:
 			System.out.println("5th Month is May");  
 			break;
 
@@ -32,8 +36,6 @@ public class SwitchCaseInput {
 			System.out.println("you input the Wrong value");
 			break;
 		}
-		
-
 	}
 	
 	private static String getInput(String pronpt) { 
