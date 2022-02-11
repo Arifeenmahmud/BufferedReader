@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        String s1 = getInput("Enter a value: ");
-        String s2 = getInput("Enter a value: ");
-        String s3 = getInput("Enter a value: ");
+        String s1 = getInput("Enter 1st value: ");
+        String s2 = getInput("Enter 2nd value: ");
+        String s3 = getInput("Enter 3rd value: ");
         double d1 = Double.parseDouble(s1);
         double d2 = Double.parseDouble(s2);
         double d3 = Double.parseDouble(s3);
